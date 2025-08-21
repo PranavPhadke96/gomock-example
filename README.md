@@ -1,6 +1,6 @@
-# 🎓 Greeting Service TDD Example (Go + GoMock)
+#  Greeting Service TDD Example (Go + GoMock)
 
-## 🧱 Folder Structure
+##  Folder Structure
 
 ```
 greeting_project/
@@ -11,7 +11,7 @@ greeting_project/
     └── mock_greeter.go         # Pre-generated mock
 ```
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 1. ✅ Open folder in **VS Code**
 2. 🧪 Run tests in terminal:
@@ -25,11 +25,9 @@ PASS
 ok  	greeting_project/greeting	0.XXXs
 ```
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 - Define and use interfaces in Go
 - Inject dependencies using constructor pattern
 - Use **GoMock** to isolate and test behavior
 - Apply **TDD**: test → fail → code → pass
-
-Happy learning! 🚀
