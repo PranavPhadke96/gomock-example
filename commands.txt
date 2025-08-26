@@ -7,4 +7,9 @@ Check in your env variables if the Gopath is set
 
 Run from root folder
 mockgen -source=greeting/greeter.go -destination=greeting/mock_greeter.go -package=greeting
- 
+
+
+From Powershell,
+$src = (Resolve-Path .\greeting\greeter.go).Path
+$dstDir = (Resolve-Path .\greeting).Path
+mockgen -source="$src" -destination="$dstDir\mock_greeter.go" -package=greeting
