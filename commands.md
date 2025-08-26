@@ -1,0 +1,10 @@
+//Mockgen Commands
+go install github.com/golang/mock/mockgen@latest
+ 
+ 
+Check in your env variables if the Gopath is set 
+%USERPROFILE%\go\bin
+
+Run from root folder
+mockgen -source=greeting/greeter.go -destination=greeting/mock_greeter.go -package=greeting
+ 
