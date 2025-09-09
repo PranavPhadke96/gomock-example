@@ -17,7 +17,8 @@ Add that folder to your PATH (same way we added %USERPROFILE%\go\bin earlier).
 
 Restart VS Code.
 
-Run again:
+Run the command again -
+go-mutesting --help
 
 3. Run mutation testing
 go-mutesting ./...
