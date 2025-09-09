@@ -27,3 +27,11 @@ Run again:
 
 3. Run mutation testing
 go-mutesting ./...
+
+
+Alternative tool : Gremlins
+1. Install 
+go install github.com/go-gremlins/gremlins/cmd/gremlins@latest
+2. Run
+gremlins unleash
+
