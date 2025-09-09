@@ -1,0 +1,30 @@
+Problem Statement
+Business Goal
+We need a function to calculate late payment fees for invoices. The company charges a penalty when customers pay after the due date. The penalty must be predictable, capped, and fair.
+
+Requirements
+Input:
+
+Invoice amount (integer, pounds).
+
+Invoice due date (time.Time).
+
+Payment date (time.Time).
+
+Output:
+
+Late fee (integer, pounds).
+
+Rules for calculation
+
+Daily fee: £2 per calendar day late.
+
+Cap: The late fee cannot exceed 10% of the invoice amount (rounded down).
+
+No fee cases:
+
+If the invoice amount is zero or negative.
+
+If the payment is made on or before the due date.
+
+Date handling: Compare only calendar days (ignore time of day).
