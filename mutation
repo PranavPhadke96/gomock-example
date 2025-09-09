@@ -5,16 +5,10 @@ go install github.com/avito-tech/go-mutesting/cmd/go-mutesting@latest
 2. Verify go-mutesting is installed
 go-mutesting --help
 
-If above is not working, 
-Option A (quick fix): install GNU diffutils for Windows
+In case the above command does not work,
+Check If you already have Git for Windows installed on your system 
 
-Download from GnuWin32 diffutils
- or Git for Windows (includes diff)
-.
-
-Make sure diff.exe is in your PATH.
-
-If you have Git for Windows installed, check:
+Check the below path:
 
 C:\Program Files\Git\usr\bin\diff.exe
 
