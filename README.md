@@ -10,6 +10,10 @@ greeting_project/
     ├── greeter_test.go         # Test using GoMock
     └── mock_greeter.go         # Pre-generated mock
 ```
+## Problem Statement
+
+Build a GreetingService that produces a greeting string for a given name by delegating to a Greeter component. 
+Tests should verify the service calls the Greeter correctly and returns whatever the Greeter provides — without depending on a concrete Greeter implementation (use mocks).
 
 ##  Setup Instructions
 
